@@ -48,16 +48,25 @@ body {
   --black-text: #000;
   --background-color: #302c42;
 }
-
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__link {
+  display: flex;
+  gap: 11px;
+  align-items: end;
+}
+.header__logo-txt {
+  margin-top: 52px;
+}
+.header__menu-svg {
+  margin-top: 53px;
+  margin-right: 20px;
+  position: fixed;
+  fill: #000;
+}
 @media screen and (max-width: 767px) {
-  .header__content {
-    display: flex;
-  }
-  .header__link {
-    display: flex;
-    gap: 11px;
-    align-items: end;
-  }
 }
 @media screen and (min-width: 768px) {
 }
